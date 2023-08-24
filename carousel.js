@@ -44,8 +44,7 @@ footerBtn.forEach((button, index) => {
     footerUl.forEach((ul, ulIndex) => {
       if (index === ulIndex) {
         ul.classList.toggle("show-footer");
-        ul.offsetTop;
-        ul.classList.toogle('dialog');
+       
         footerArrow[ulIndex].classList.toggle("rotate");
       }
     });
